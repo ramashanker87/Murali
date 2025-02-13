@@ -5,7 +5,7 @@ public class TestingAgeForVote {
         TestingAgeForVote test=new TestingAgeForVote();
         try{
             test.validateAge(16);
-        }catch(RevanthAgeValidationException e){
+        }catch(MuraliAgeValidationException e){
             e.printStackTrace();
             System.out.println(e.getMessage());
         }finally{
@@ -13,9 +13,9 @@ public class TestingAgeForVote {
         }
     }
 
-    public void validateAge(int age) throws RevanthAgeValidationException {
+    public void validateAge(int age) throws MuraliAgeValidationException {
         if (age <=18) {
-            throw new RevanthAgeValidationException("Age must be above 18 to vote.");
+            throw new MuraliAgeValidationException("Age must be above 18 to vote.");
         }
     }
 }
