@@ -1,4 +1,4 @@
-//package com.revanth.app;
+//package com.murali.app;
 //
 //import org.junit.jupiter.api.Test;
 //import org.springframework.boot.test.context.SpringBootTest;
